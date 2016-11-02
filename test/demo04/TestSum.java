@@ -25,6 +25,12 @@ public class TestSum {
 		assertEquals(-8, sum(-4, -4));
 	}
 	
+	
+	@Test
+	public void swumaTersNumeros() {
+		assertEquals(15, Math.sum(3, 5, 7));
+	}
+	
 	private int sum(int i, int j) {
 		return Math.sum(i,  j);
 	}
